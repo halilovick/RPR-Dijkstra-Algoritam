@@ -23,7 +23,7 @@ public class App {
             }
         }
         else{
-            String s = "( 1 + 1 + ( 2 ) )";
+            String s = "( 1 + 2 )";
             try {
                 System.out.println(ExpressionEvaluator.evaluate(s));
             } catch (Exception e) {
